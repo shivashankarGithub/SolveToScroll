@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SolveToScroll" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    
+    <style name="Theme.SolveToScroll.Overlay" parent="Theme.SolveToScroll">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@color/surface</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

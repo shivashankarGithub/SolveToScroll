@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SolveToScroll</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Welcome to SolveToScroll</string>
+    <string name="onboarding_welcome_subtitle">Want to open Instagram?\nSolve this first: 3x + 7 = 22</string>
+    <string name="onboarding_welcome_description">The app blocker that makes you think before you scroll.</string>
+    <string name="onboarding_get_started">Get Started</string>
+    
+    <string name="onboarding_how_title">How It Works</string>
+    <string name="onboarding_how_step1">1. Pick apps to block (social media, games)</string>
+    <string name="onboarding_how_step2">2. Set your schedule (work hours, study time)</string>
+    <string name="onboarding_how_step3">3. Open a blocked app? Complete a challenge</string>
+    <string name="onboarding_how_step4">4. Math, typing, or reflection prompts</string>
+    <string name="onboarding_how_step5">5. Solve it? Get 5 minutes of access</string>
+    <string name="onboarding_how_footer">The more you try, the harder it gets.</string>
+    <string name="onboarding_next">Next</string>
+    
+    <string name="onboarding_permissions_title">Quick Setup</string>
+    <string name="onboarding_permissions_subtitle">SolveToScroll needs two permissions:</string>
+    <string name="onboarding_permissions_usage">Usage Access: Detects when blocked apps open</string>
+    <string name="onboarding_permissions_overlay">Display Over Apps: Shows the challenge screen</string>
+    <string name="onboarding_permissions_privacy">Your data stays on your device.\nNo accounts. No tracking.</string>
+    <string name="onboarding_grant_permissions">Grant Permissions</string>
+    
+    <string name="onboarding_ready_title">You\'re Ready!</string>
+    <string name="onboarding_ready_subtitle">Time to pick your first app to block.</string>
+    <string name="onboarding_ready_tip">Pro tip: Start with just one app.</string>
+    <string name="onboarding_block_first_app">Block My First App</string>
+    
+    <!-- Home Screen -->
+    <string name="home_title">Blocked Apps</string>
+    <string name="home_empty">No apps blocked yet.\nTap + to add your first app.</string>
+    <string name="home_add_app">Add App</string>
+    
+    <!-- Add App Screen -->
+    <string name="add_app_title">Select App to Block</string>
+    <string name="add_app_search">Search apps…</string>
+    
+    <!-- Schedule Screen -->
+    <string name="schedule_title">Set Schedule</string>
+    <string name="schedule_start_time">Start Time</string>
+    <string name="schedule_end_time">End Time</string>
+    <string name="schedule_days">Days</string>
+    <string name="schedule_save">Save Schedule</string>
+    <string name="schedule_all_day">Block all day</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_permissions">Permissions</string>
+    <string name="settings_usage_access">Usage Access</string>
+    <string name="settings_overlay">Display Over Apps</string>
+    <string name="settings_battery">Battery Optimization</string>
+    <string name="settings_access_duration">Access Duration</string>
+    <string name="settings_unlock_duration">Unlock duration</string>
+    <string name="settings_about">About</string>
+    <string name="settings_privacy_policy">Privacy Policy</string>
+    <string name="settings_version">Version</string>
+    
+    <!-- Challenge Screen -->
+    <string name="challenge_blocked_title">This app is blocked</string>
+    <string name="challenge_blocked_subtitle">Complete the challenge to unlock for 5 minutes</string>
+    <string name="challenge_difficulty">Difficulty</string>
+    <string name="challenge_submit">Submit</string>
+    <string name="challenge_go_back">Go Back</string>
+    <string name="challenge_attempts">Attempts: %d</string>
+    <string name="challenge_incorrect">Incorrect. Try again!</string>
+    
+    <!-- Math Challenge -->
+    <string name="math_solve_for_x">Solve for x</string>
+    <string name="math_find_root">Find a positive root</string>
+    <string name="math_calculate">Calculate the result</string>
+    <string name="math_your_answer">Your answer</string>
+    
+    <!-- Typing Challenge -->
+    <string name="typing_instruction">Type the text below exactly:</string>
+    <string name="typing_placeholder">Start typing…</string>
+    
+    <!-- Reflection Challenge -->
+    <string name="reflection_instruction">Answer the prompt below:</string>
+    <string name="reflection_word_count">%1$d / %2$d words</string>
+    <string name="reflection_too_short">Write at least %d words</string>
+    <string name="reflection_too_repetitive">Please write a more varied response</string>
+    <string name="reflection_suspicious">Please write a meaningful response</string>
+    
+    <!-- Wait Timer -->
+    <string name="wait_timer_title">Please wait</string>
+    <string name="wait_timer_message">Too many attempts. Wait before trying again.</string>
+    <string name="wait_timer_seconds">%d seconds remaining</string>
+    
+    <!-- Service Notification -->
+    <string name="notification_channel_name">App Blocker</string>
+    <string name="notification_channel_description">Monitors blocked apps</string>
+    <string name="notification_title">SolveToScroll is active</string>
+    <string name="notification_text">Monitoring %d blocked apps</string>
+    
+    <!-- Days of Week -->
+    <string name="day_monday">Mon</string>
+    <string name="day_tuesday">Tue</string>
+    <string name="day_wednesday">Wed</string>
+    <string name="day_thursday">Thu</string>
+    <string name="day_friday">Fri</string>
+    <string name="day_saturday">Sat</string>
+    <string name="day_sunday">Sun</string>
+</resources>
